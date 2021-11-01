@@ -1,6 +1,11 @@
 # Resources
 A list of Style transfer resources.
 
+1. [Basics](#Basics)
+2. [Single Image Style Transfer](#Single-Image-Style-Transfer)
+  1. [Adjustable Style Transfer](#Adjustable-Style-Transfer)
+3. [Real Time Style Transfer](#Real-Time-Style-Transfer)
+
 ## Basics
 Style transfer algorithms strive to create a new image with the content of one or more images using the style of another.
 It first gained popularity by the paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf) published by Gatys et al.,
@@ -85,9 +90,10 @@ The methods listened here are only the ones that could be reasonably used by som
   <img src="imgs/element_ai_nt.gif" />
 </p>
 
-### Using Noisy Images
-- This method was use by Element AI to stabilize video. It uses the same implementation of Johnson et al., but each image at training time is duplicated and noise is added
-to it. The root mean squared error of the output of the network for the clean and noisy image are then computated and added to the loss function. The advange of this method is its simplicity - however, as the network has to run predictions on two images, training takes considerably longer.
+- Using Noisy Images was used by Element AI to stabilize video. It uses the same implementation of Johnson et al., but each image at training time 
+is duplicated and noise is added to it. The root mean squared error of the output of the network for the clean and noisy image are then computated 
+and added to the loss function. The advange of this method is its simplicity - however, as the network has to run predictions on two images,
+training takes considerably longer.
 
 <p align="center">
   <img src="imgs/element_ai.gif" />
