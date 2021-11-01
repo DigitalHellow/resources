@@ -41,7 +41,7 @@ into a [3D model](https://distill.pub/2018/differentiable-parameterizations/#sec
   <img src="imgs/lucid_3d.png" height="400"/>
 </p>
 
-- [Style Transfer by Relaxed Optimal Transport and Self-Similarity - STROTSS](https://arxiv.org/pdf/1904.12785.pdf)([Implementation](https://github.com/pytorch/examples/tree/master/fast_neural_style)) uses a new approach where
+- [Style Transfer by Relaxed Optimal Transport and Self-Similarity - STROTSS](https://arxiv.org/pdf/1904.12785.pdf) ([Implementation 1](https://github.com/nkolkin13/STROTSS), [Implementation 2](https://github.com/futscdav/strotss)) uses a new approach where
 a mask is also used as an input at training time. The regions denoted withing the mask will have the style of the style image, while the other regions
 will be the same as the content image. It also allows for aesthetic guidance- that is, you can select patches of the mask to have the same style,
 allowing for more user control.
@@ -72,4 +72,35 @@ by Babaeizadeh, Ghiasi, also uses the same algorithm of Johnson et al., but adds
 
 <p align="center">
   <img src="imgs/babaeizadeh.png" />
+</p>
+
+
+## Real Time Style Transfer
+Real time style transfer transfers the style of a given image to a video or live feed. Johnson et al. algorithm is typically used for toy applications due to its speed,
+but it has a problem with temporal consistency, that is, two different frames with the same objects will have stylization applied differently. A few methods exist
+to handle this issue, such as using optical flow. Some of these methods, however, can not be reasonably trained or be used without a cluster of high end GPUs and computers.
+The methods listened here are only the ones that could be reasonably used by someone with a mid-to-high end GPU.
+
+<p align="center">
+  <img src="imgs/element_ai_nt.gif" />
+</p>
+
+### Using Noisy Images
+- This method was use by Element AI to stabilize video. It uses the same implementation of Johnson et al., but each image at training time is duplicated and noise is added
+to it. The root mean squared error of the output of the network for the clean and noisy image are then computated and added to the loss function. The advange of this method is its simplicity - however, as the network has to run predictions on two images, training takes considerably longer.
+
+<p align="center">
+  <img src="imgs/element_ai.gif" />
+</p>
+
+- [Style-Aware Content Loss for Real-time HD Style Transfer](https://compvis.github.io/adaptive-style-transfer/) ([implementation](https://github.com/CompVis/adaptive-style-transfer)) by Sanakoyeu et al. proposes a style-aware content loss, which is trained jointly with a deep encoder-decoder network for real-time, high-resolution stylization of images and videos. It actually doesn't tackle the issue of temporal consistency, as the network does not present this problem.
+
+<p align="center">
+  <img src="imgs/sanakoyeu.jpg" />
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=yrXmRR9nsRA&ab_channel=GradientDude">
+    <img src="imgs/sana_video.png" />
+  </a>
 </p>
