@@ -36,9 +36,9 @@ as it seems to have been lacking support in the recent years). One thing to note
 into a [3D model](https://distill.pub/2018/differentiable-parameterizations/#section-style-transfer-3d).
 
 <p align="center">
-  <img src="imgs/lucid_fft.png" width="500"/>
-  <img src="imgs/lucid_pat.png" width="500"/>
-  <img src="imgs/lucid_3d.png" width="500"/>
+  <img src="imgs/lucid_fft.png" height="400"/>
+  <img src="imgs/lucid_pat.png" height="400"/>
+  <img src="imgs/lucid_3d.png" height="400"/>
 </p>
 
 - [Style Transfer by Relaxed Optimal Transport and Self-Similarity - STROTSS](https://arxiv.org/pdf/1904.12785.pdf)([Implementation](https://github.com/pytorch/examples/tree/master/fast_neural_style)) uses a new approach where
