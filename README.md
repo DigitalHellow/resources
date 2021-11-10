@@ -114,6 +114,7 @@ training takes considerably longer.
 
 ## WIP
 Articles to check:
+- [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf)
 - [StyleFormer: Real-time Arbitrary Style Transfer via
 Parametric Style Composition](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_StyleFormer_Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition_ICCV_2021_paper.pdf)
 - [Improved Texture Networks: Maximizing Quality and Diversity in
