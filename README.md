@@ -13,9 +13,10 @@ A list of Style transfer resources.
 Really important:
 
 - [Guided neural style transfer for shape stylization](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0233489&type=printable)
-[Implementation](https://github.com/gttugsuu/Guided-Neural-Style-Transfer-for-Shape-Stylization) Logo guided style transfer
+[Implementation](https://github.com/gttugsuu/Guided-Neural-Style-Transfer-for-Shape-Stylization) Logo guided style transfer;
+- [Universal Style Transfer via Feature Transforms](https://arxiv.org/pdf/1705.08086.pdf) [Implementation](https://github.com/Yijunmaverick/UniversalStyleTransfer) Guided style transfer;
 - [Arbitrary Style Transfer Using Neurally-Guided Patch-Based Synthesis](https://ondrejtexler.github.io/res/CAG_main.pdf) 
-[Implementation](https://github.com/OndrejTexler/Neurally-Guided-Style-Transfer) Enhances neural style transfer results
+[Implementation](https://github.com/OndrejTexler/Neurally-Guided-Style-Transfer) Enhances neural style transfer results;
 
 Articles to check:
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf)
