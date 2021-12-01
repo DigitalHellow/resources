@@ -1,11 +1,26 @@
 # Resources
 A list of Style transfer resources.
 
-1. [Basics](#Basics)
-2. [Single Image Style Transfer](#Single-Image-Style-Transfer)
+1. [WIP](#WIP)
+2. [Basics](#Basics)
+3. [Single Image Style Transfer](#Single-Image-Style-Transfer)
   1. [Adjustable Style Transfer](#Adjustable-Style-Transfer)
-3. [Real Time Style Transfer](#Real-Time-Style-Transfer)
-4. [WIP](#WIP)
+4. [Real Time Style Transfer](#Real-Time-Style-Transfer)
+
+
+
+## WIP
+Really important:
+- [Guided neural style transfer for shape stylization](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0233489&type=printable)
+[Implementation](https://github.com/gttugsuu/Guided-Neural-Style-Transfer-for-Shape-Stylization) Logo guided style transfer
+- [Arbitrary Style Transfer Using Neurally-Guided Patch-Based Synthesis](https://ondrejtexler.github.io/res/CAG_main.pdf) 
+[Implementation](https://github.com/OndrejTexler/Neurally-Guided-Style-Transfer) Enhances neural style transfer results
+Articles to check:
+- [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf)
+- [StyleFormer: Real-time Arbitrary Style Transfer via
+Parametric Style Composition](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_StyleFormer_Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition_ICCV_2021_paper.pdf)
+- [Improved Texture Networks: Maximizing Quality and Diversity in
+Feed-forward Stylization and Texture Synthesis](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ulyanov_Improved_Texture_Networks_CVPR_2017_paper.pdf)
 
 ## Basics
 Style transfer algorithms strive to create a new image with the content of one or more images using the style of another.
@@ -111,11 +126,3 @@ training takes considerably longer.
     <img src="imgs/sana_video.png" />
   </a>
 </p>
-
-## WIP
-Articles to check:
-- [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://arxiv.org/pdf/1703.06868.pdf)
-- [StyleFormer: Real-time Arbitrary Style Transfer via
-Parametric Style Composition](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_StyleFormer_Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition_ICCV_2021_paper.pdf)
-- [Improved Texture Networks: Maximizing Quality and Diversity in
-Feed-forward Stylization and Texture Synthesis](https://openaccess.thecvf.com/content_cvpr_2017/papers/Ulyanov_Improved_Texture_Networks_CVPR_2017_paper.pdf)
