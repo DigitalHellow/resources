@@ -14,6 +14,7 @@ Really important:
 
 - [Guided neural style transfer for shape stylization](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0233489&type=printable)
 [Implementation](https://github.com/gttugsuu/Guided-Neural-Style-Transfer-for-Shape-Stylization) Logo guided style transfer;
+- [Shape Matching GAN](https://arxiv.org/pdf/1905.01354.pdf) [Implementation](https://github.com/VITA-Group/ShapeMatchingGAN) Letter guided style transfer;
 - [Universal Style Transfer via Feature Transforms](https://arxiv.org/pdf/1705.08086.pdf) [Implementation](https://github.com/Yijunmaverick/UniversalStyleTransfer) Guided style transfer;
 - [Arbitrary Style Transfer Using Neurally-Guided Patch-Based Synthesis](https://ondrejtexler.github.io/res/CAG_main.pdf) 
 [Implementation](https://github.com/OndrejTexler/Neurally-Guided-Style-Transfer) Enhances neural style transfer results;
